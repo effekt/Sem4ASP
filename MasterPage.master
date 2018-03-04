@@ -1,0 +1,56 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title ID="HeadTitle"></title>
+    <link rel="stylesheet" href="~/assets/bootstrap.min.css" />
+    <script src="~/assets/jquery-3.2.1.slim.min.js"></script>
+    <script src="~/assets/popper.min.js"></script>
+    <script src="~/assets/bootstrap.min.js"></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="sticky-top navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+            <asp:HyperLink CssClass="navbar-brand" NavigateUrl="Default.aspx" runat="server">Handy Dandy</asp:HyperLink>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#sitenav" aria-controls="sitenav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+            <asp:Panel class="collapse navbar-collapse" ID="sitenav" runat="server">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item" ID="Home" runat="server">
+                        <asp:HyperLink CssClass="nav-link" NavigateUrl="Default.aspx" runat="server">Home</asp:HyperLink>
+                    </li>
+                    <li class="nav-item" ID="Information" runat="server">
+                        <asp:HyperLink CssClass="nav-link" NavigateUrl="Info.aspx" runat="server">Information</asp:HyperLink>
+                    </li>
+                    <li class="nav-item" ID="About" runat="server">
+                        <asp:HyperLink CssClass="nav-link" NavigateUrl="About.aspx" runat="server">About</asp:HyperLink>
+                    </li>
+                    <li class="nav-item" ID="Feedback" runat="server">
+                        <asp:HyperLink CssClass="nav-link" NavigateUrl="Feedback.aspx" runat="server">Feedback</asp:HyperLink>
+                    </li>
+                    <li class="nav-item" ID="Login" runat="server">
+                        <asp:HyperLink CssClass="nav-link" NavigateUrl="Login.aspx" runat="server">Login</asp:HyperLink>
+                    </li>
+                </ul>
+            </asp:Panel>
+        </div>
+    </nav>
+    <!-- End Navigation -->
+    <form id="form1" runat="server">
+    <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+
+    <nav class="navbar fixed-bottom navbar-light bg-light">
+         <h4 ID="Copyright" runat="server" class="navbar-text">&copy; Copyright 2018</h4>
+    </nav>
+</body>
+</html>
