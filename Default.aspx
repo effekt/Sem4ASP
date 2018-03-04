@@ -11,6 +11,7 @@
     <script src="~/assets/bootstrap.min.js"></script>
 </head>
 <body>
+    <form id="form1" runat="server">
     <!-- Navigation -->
     <nav class="sticky-top navbar navbar-expand-lg navbar-dark bg-primary">
         <div class="container">
@@ -40,6 +41,28 @@
             </asp:Panel>
         </div>
     </nav>
+        <p>
+            <br />
+            Handy Dandy,</p>
     <!-- End Navigation -->
+        <p>
+            Sports center reservations,</p>
+        <p>
+            <asp:SqlDataSource ID="SqlDataSource1" runat="server"></asp:SqlDataSource>
+        </p>
+        made easy.<p>
+            &nbsp;</p>
+        <p>
+            &nbsp;&nbsp;</p>
+        <p>
+            &nbsp;</p>
+        <p>
+            Start Reserving Today</p>
+        <asp:Button ID="Button1" runat="server" Text="Button" />
+        <p>
+            &nbsp;</p>
+        <p>
+            Already a<span class="text-primary"> member? Log in</span></p>
+    </form>
 </body>
 </html>
