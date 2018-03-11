@@ -42,7 +42,7 @@
     </nav>
     <!-- End Navigation -->
     <form id="form1" runat="server">
-    <div>
+    <div class="container">
         <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
         
         </asp:ContentPlaceHolder>
@@ -50,7 +50,9 @@
     </form>
 
     <nav class="navbar fixed-bottom navbar-light bg-light">
-         <h4 ID="Copyright" runat="server" class="navbar-text">&copy; Copyright 2018</h4>
+		<div class="container">
+			<h6 ID="Copyright" runat="server" class="navbar-text">&copy; Copyright 2018</h6>
+		</div>
     </nav>
 </body>
 </html>
