@@ -4,7 +4,7 @@
 	<div class="row">
 		<div class="default-content col-6">
 		   <div class="default-inner-content">
-				<div class="default-inner-inner-content">
+				<div class="default-inner-inner-content align-middle">
 					<h1>Handy <span class="green-text">Dandy</span>.</h1>
 					Sports center reservations<br />
 					made <span class="green-text">easy.</span>
@@ -21,7 +21,21 @@
 		   </div>
 		</div>
 		<div class="default-content col-6">
-			Hello
+			<div class="default-right-content align-middle">
+				Find What You Need.
+				<br />
+				<br />
+				↓
+				<br />
+				<br />
+				Book A Room.
+				<br />
+				<br />
+				↓
+				<br />
+				<br />
+				Skip The Receptionist.
+			</div>
 		</div>
 	</div>
 </asp:Content>

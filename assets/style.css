@@ -38,18 +38,24 @@ body {
 }
 
 .default-inner-inner-content {
-    position: absolute;
-    top: 10%;
-    left: 60%;
-    transform: translateY(-10%);
-    transform: translateX(-50%);
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
     width: 80%;
     font-size: 2em;
     line-height: 2em;
+    margin: 0 auto;
 }
 
-.default-inner-inner-content br {
-    margin: 2em auto;
+.default-right-content {
+    width: 100%;
+    font-size: 2.5em;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    top: 50%;
+    position: relative;
+    transform: translateY(-50%);
 }
 
 .inner-smaller-text {
@@ -67,4 +73,10 @@ body {
 h1 {
     font-size: 2.5em;
     margin: 0 auto 1em auto;
+}
+
+.nav-bottom {
+    position: absolute;
+    top: 100vh;
+    width: 100%;
 }

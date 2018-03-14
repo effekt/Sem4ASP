@@ -5,12 +5,12 @@
 <html>
 <head runat="server">
     <title ID="HeadTitle"></title>
-    <link rel="stylesheet" href="~/assets/bootstrap.min.css" />
-	<link rel="stylesheet" href="~/assets/style.css" />
+    <link rel="stylesheet" href="assets/bootstrap.min.css" />
+	<link rel="stylesheet" href="assets/style.css" />
 	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <script src="~/assets/jquery-3.2.1.slim.min.js"></script>
-    <script src="~/assets/popper.min.js"></script>
-    <script src="~/assets/bootstrap.min.js"></script>
+    <script src="assets/jquery-3.2.1.slim.min.js"></script>
+    <script src="assets/popper.min.js"></script>
+    <script src="assets/bootstrap.min.js"></script>
 </head>
 <body>
     <!-- Navigation -->
@@ -55,7 +55,7 @@
 		<% } %>
     </form>
 
-    <nav class="navbar navbar-light bg-light">
+    <nav class="navbar navbar-light bg-light nav-bottom">
 		<div class="container">
 			<h6 ID="Copyright" runat="server" class="navbar-text">&copy; Copyright 2018</h6>
 		</div>

@@ -1,7 +1,6 @@
 ﻿<%@ Page Title="Login" MasterPageFile="~/MasterPage.master" Language="C#" AutoEventWireup="true" CodeFile="Login.aspx.cs" Inherits="Login" %>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
-   <h1>Hello from Login</h1>
     <p>&nbsp;</p>
     <p class="text-center">
         <asp:Label ID="Label3" runat="server" Font-Names="Baskerville Old Face" Font-Size="XX-Large" ForeColor="Yellow" Text="Log In"></asp:Label>
