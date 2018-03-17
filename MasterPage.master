@@ -43,7 +43,7 @@
         </div>
     </nav>
     <!-- End Navigation -->
-    <form id="form1" runat="server">
+    <form id="form1" runat="server" class="min-height">
 		<% if (!title.Equals("Home")) { %>
 		<div class="container">
 		<% } %>
@@ -55,7 +55,7 @@
 		<% } %>
     </form>
 
-    <nav class="navbar navbar-light bg-light nav-bottom">
+    <nav class="navbar navbar-light bg-light">
 		<div class="container">
 			<h6 ID="Copyright" runat="server" class="navbar-text">&copy; Copyright 2018</h6>
 		</div>
