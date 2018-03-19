@@ -56,10 +56,12 @@
 				<div class="card-body d-flex flex-column align-items-start">
 					<strong class="d-inline-block mb-2 text-primary">101069860</strong>
 					<h3 class="mb-0 text-dark">Andrew Wilson</h3>
-					<div class="mb-1 text-muted">andrew.wilson@georgebrown.ca</div>
-					<p class="card-text mb-auto">I am in the T-127 program like all my other team member.I have a degree in Sound Engineering that i got in London UK in 2012.I am a mix of irish-italian and my fauvourite language in Pithon. I hope to work in AI some day</p>
+					<div class="mb-1 text-muted">andrew.wilson2@georgebrown.ca</div>
+					<p class="card-text mb-auto">Born and raised in Canada, I have been developing for the web for over 2 years. I self-taught myself various subjects including calculus 1 &amp; 2, linear algebra, and machine learning.</p>
+                    <p class="card-text mb-auto">&nbsp;</p>
+                    <p class="card-text mb-auto">Recently I completed the deep learning specialization from deeplearning.ai and am developing applications that utilize deep learning and software development at it&#39;s core.</p>
 				</div>
-				<a href="assets/images/max.jpg"><img class="card-img-right flex-auto d-none d-md-block" height="180" src="assets/images/max.jpg" alt="max"></a>
+				<a href="assets/images/max.jpg"><img class="card-img-right flex-auto d-none d-md-block" height="180" src="assets/images/andrew.jpg" alt="max"></a>
 			</div>
 		</div>
     </div>
