@@ -3,7 +3,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
     <div class="container">
         <div class="col-md-6 offset-3">
-            <h1 class="text-center mt-5">Log In</h1>
+            <h1 class="text-center mt-5 mb-5">Log In</h1>
             <p class="text-center">Already have an account? <a href="#">Sign Up</a>!</p>
             <div class="form-group">
                 <label for="txtEmail" class="mx-auto">Email Address</label>
