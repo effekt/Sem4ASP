@@ -78,3 +78,7 @@ h1 {
 .min-height {
     min-height: calc(100% - 89px);
 }
+
+.mrg-top {
+    margin-top: 25px;
+}

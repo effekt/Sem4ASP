@@ -11,4 +11,9 @@ public partial class Feedback : System.Web.UI.Page
     {
 
     }
+
+    protected void btnSubmit_Click(object sender, EventArgs e)
+    {
+        Server.Transfer("FeedbackSubmission.aspx");
+    }
 }

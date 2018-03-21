@@ -14,7 +14,7 @@
                 <asp:TextBox ID="txtFeedback" runat="server" Height="120px" Width="525px" CssClass="form-control mx-auto"></asp:TextBox>
             </div>
             
-            <asp:Button ID="btnSubmit" runat="server" Text="Submit" CssClass="mx-auto btn btn-success" />
+            <asp:Button ID="btnSubmit" runat="server" Text="Submit" CssClass="mx-auto btn btn-success" OnClick="btnSubmit_Click" />
 
         </div>
     </div>
