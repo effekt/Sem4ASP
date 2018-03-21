@@ -9,6 +9,11 @@ public partial class LoginSubmission : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
-
+        if (Page.PreviousPage != null)
+        {
+            ContentPlaceHolder c = (ContentPlaceHolder)Page.PreviousPage.Master.FindControl("ContentPlaceHolder1");
+            TextBox username = (TextBox)c.FindControl("txtUsername");
+            lblUsername.Text = "Welcome " + username.Text;
+        }
     }
 }
