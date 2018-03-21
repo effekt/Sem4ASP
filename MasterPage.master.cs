@@ -13,7 +13,7 @@ public partial class MasterPage : System.Web.UI.MasterPage
     {
         SetActivePage();
         SetCopyrightMessage();
-        Debug.WriteLine(Page.Title);
+        //Debug.WriteLine(Page.Title);
         this.title = Page.Title;
         HeadTitle.Text = "Handy Dandy Sports Center - " + Page.Title;
     }

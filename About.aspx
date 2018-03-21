@@ -26,7 +26,7 @@
 					<div class="mb-1 text-muted">jesse.wheeler@georgebrown.ca</div>
 					<p class="card-text mb-auto">A T127 student with a passion for programming. From a young age I've been submerged in the technology world.<br /><br />Now working as a Tutor & TA, a member of the Research and Innovation department (Literacy Uplift), and as a junior MEAN developer. With these jobs and schooling I hope to further my knowledge in computing and someday hope to self-indulge in machine learning and computer vision.</p>
 				</div>
-				<a href="assets/images/jesse.jpg"><img class="card-img-right flex-auto d-none d-md-block" height="180" src="assets/images/jesse.jpg" alt="max"></a>
+				<a href="assets/images/jesse.jpg"><img class="card-img-right flex-auto d-none d-md-block" height="180" src="assets/images/jesse.jpg" alt="Jesse"></a>
 			</div>
 		</div>
         <div class="col-md-6">
@@ -37,7 +37,7 @@
 					<div class="mb-1 text-muted">sandra.ania@georgebrown.ca</div>
 					<p class="card-text mb-auto">I worked in advertising for over 18 years. I am new to computer programming and am love how technology is being used to help people.</p>
 				</div>
-				<a href="assets/images/sandra.jpg"><img class="card-img-right flex-auto d-none d-md-block" height="180" src="assets/images/sandra.jpg" alt="max"></a>
+				<a href="assets/images/sandra.jpg"><img class="card-img-right flex-auto d-none d-md-block" height="180" src="assets/images/sandra.jpg" alt="Sandra"></a>
 			</div>
 		</div>
         <div class="col-md-6">
@@ -48,7 +48,7 @@
 					<div class="mb-1 text-muted">qian.wang@georgebrown.ca</div>
 					<p class="card-text mb-auto">I am an international student from China. I chose programming because I loved it. I have a lot of curiosity and curiosity about the world of programs. Although I am only a junior programmer now, I will try my best to enrich myself and improve my skills. I hope I can create my own products in the future. It can also contribute to the development of technology.</p>
 				</div>
-				<a href="assets/images/qian.jpg"><img class="card-img-right flex-auto d-none d-md-block" height="180" src="assets/images/qian.jpg" alt="max"></a>
+				<a href="assets/images/qian.jpg"><img class="card-img-right flex-auto d-none d-md-block" height="180" src="assets/images/qian.jpg" alt="Qian"></a>
 			</div>
 		</div>
 		<div class="col-md-6">
@@ -61,7 +61,7 @@
                     <p class="card-text mb-auto">&nbsp;</p>
                     <p class="card-text mb-auto">Recently I completed the deep learning specialization from deeplearning.ai and am developing applications that utilize deep learning and software development at it&#39;s core.</p>
 				</div>
-				<a href="assets/images/max.jpg"><img class="card-img-right flex-auto d-none d-md-block" height="180" src="assets/images/andrew.jpg" alt="max"></a>
+				<a href="assets/images/andrew.jpg"><img class="card-img-right flex-auto d-none d-md-block" height="180" src="assets/images/andrew.jpg" alt="Andrew"></a>
 			</div>
 		</div>
     </div>

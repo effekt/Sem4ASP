@@ -57,7 +57,35 @@
 
     <nav class="navbar navbar-light bg-light">
 		<div class="container">
-			<h6 ID="Copyright" runat="server" class="navbar-text">&copy; Copyright 2018</h6>
+			<div class="col-7">
+				<h6 ID="Copyright" runat="server" class="navbar-text">&copy; Copyright 2018</h6>
+			</div>
+			<div class="col-5">
+
+				<table style="width:100%;">
+					<tr>
+						<td>Jesse Wheeler</td>
+						<td>101075970</td>
+					</tr>
+					<tr>
+						<td>Max Paxton</td>
+						<td>101064370</td>
+					</tr>
+					<tr>
+						<td>Qian Wang</td>
+						<td>100961367</td>
+					</tr>
+					<tr>
+						<td>Sandra Ania</td>
+						<td>101078910</td>
+					</tr>
+					<tr>
+						<td>Andrew Wilson</td>
+						<td>101069860</td>
+					</tr>
+				</table>
+
+			</div>
 		</div>
     </nav>
 </body>
