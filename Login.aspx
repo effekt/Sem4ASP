@@ -24,7 +24,7 @@
 					</li>
 					<li>Is required<asp:RequiredFieldValidator ID="rfvUsername" runat="server" ControlToValidate="txtUsername" ErrorMessage="&lt;- Requirement not fulfilled" ForeColor="#FF0066" SetFocusOnError="True"></asp:RequiredFieldValidator>
 					</li>
-					<li>Must begin with a letter<asp:RegularExpressionValidator ID="revFirstLetterUsername" runat="server" ControlToValidate="txtUsername" ErrorMessage="&lt;- Requirement not fulfilled" ForeColor="#FF0066" SetFocusOnError="True" ValidationExpression="^([A-Za-z])+"></asp:RegularExpressionValidator>
+					<li>Must begin with a letter<asp:RegularExpressionValidator ID="revFirstLetterUsername" runat="server" ControlToValidate="txtUsername" ErrorMessage="&lt;- Requirement not fulfilled" ForeColor="#FF0066" SetFocusOnError="True" ValidationExpression="^([A-Za-z]).+"></asp:RegularExpressionValidator>
 					</li>
 				</ul>
 				<h4>Password Requirements:</h4>

@@ -35,9 +35,18 @@
                     <li class="nav-item" ID="Feedback" runat="server">
                         <asp:HyperLink CssClass="nav-link" NavigateUrl="~/Feedback.aspx" runat="server">Feedback</asp:HyperLink>
                     </li>
+                    <% if (Session["LoggedIn"] == null || Session["LoggedIn"].Equals(false)) { %>
                     <li class="nav-item" ID="Login" runat="server">
                         <asp:HyperLink CssClass="nav-link" NavigateUrl="~/Login.aspx" runat="server">Login</asp:HyperLink>
                     </li>
+                    <% } else { %>
+                    <li class="nav-item" ID="Dashboard" runat="server">
+                        <asp:HyperLink CssClass="nav-link" NavigateUrl="~/Dashboard.aspx" runat="server">Dashboard</asp:HyperLink>
+                    </li>
+                    <li class="nav-item" ID="Logout" runat="server">
+                        <asp:HyperLink CssClass="nav-link" NavigateUrl="~/Logout.aspx" runat="server">Logout</asp:HyperLink>
+                    </li>
+                    <% } %>
                 </ul>
             </asp:Panel>
         </div>
