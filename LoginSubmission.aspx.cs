@@ -29,6 +29,8 @@ public partial class LoginSubmission : System.Web.UI.Page
                 hlLoggedIn.NavigateUrl = "~/Dashboard.aspx";
                 hlLoggedIn.Text = "Continue to Dashboard";
                 Session["LoggedIn"] = true;
+                Session["UserID"] = d[0]["UserID"];
+                Session["UserName"] = d[0]["FirstName"];
             } else
             {
                 lblLogin.Text = "You have entered an incorrect username or password.";

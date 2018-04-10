@@ -82,3 +82,11 @@ h1 {
 .mrg-top {
     margin-top: 25px;
 }
+
+.mrg-bt {
+    margin: 25px 0;
+}
+
+.disp-block {
+    display: block;
+}
