@@ -4,7 +4,7 @@
 	<div class="container">
         <div class="col-md-8 offset-2">
             <h1 class="text-center mt-5 mb-5">Log In</h1>
-            <p class="text-center">Don't have an account? <a href="#">Sign Up</a>!</p>
+            <p class="text-center">Don't have an account? <asp:HyperLink NavigateUrl="~/Register.aspx" runat="server">Sign Up</asp:HyperLink>!</p>
             <div class="form-group">
                 <label for="txtEmail" class="mx-auto">Username</label>
                 <asp:TextBox ID="txtUsername" runat="server" Height="44px" Width="100%" CssClass="form-control mx-auto"></asp:TextBox>

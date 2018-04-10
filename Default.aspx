@@ -12,7 +12,7 @@
 					<br />
 					Start Reserving Today
 					<br />
-					<asp:HyperLink NavigateUrl="#" CssClass="btn btn-success" runat="server">Sign Up</asp:HyperLink>
+					<asp:HyperLink NavigateUrl="~/Register.aspx" CssClass="btn btn-success" runat="server">Sign Up</asp:HyperLink>
 					<br />
 					<span class="inner-smaller-text">
 						Already a member? <asp:HyperLink NavigateUrl="~/Login.aspx" runat="server">Log In</asp:HyperLink>
