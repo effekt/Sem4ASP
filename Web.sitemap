@@ -3,5 +3,6 @@
   <siteMapNode url="~/Dashboard.aspx" title="Dashboard"  description="Dashboard">
     <siteMapNode url="~/CreateReservation.aspx" title="Create Reservation"  description="Create Reservation" />
     <siteMapNode url="~/ReserveEquipment.aspx" title="Reserve Equipment"  description="Reserve Equipment" />
+    <siteMapNode url="~/UpdateProfile.aspx" title="Update Profile" description="Update Profile" />
   </siteMapNode>
 </siteMap>
