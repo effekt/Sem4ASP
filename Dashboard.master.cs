@@ -9,7 +9,6 @@ public partial class Dashboard : System.Web.UI.MasterPage
 {
     protected void Page_Load(object sender, EventArgs e)
     {
-        if (Session == null || Session["LoggedIn"] == null)
-            Server.Transfer("~/Default.aspx");
+        
     }
 }
