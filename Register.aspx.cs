@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography;
+using System.Text;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
@@ -10,5 +12,28 @@ public partial class Default2 : System.Web.UI.Page
     protected void Page_Load(object sender, EventArgs e)
     {
 
+    }
+
+    protected void btnRegister_Click(object sender, EventArgs e)
+    {
+        Session["password"] = getMd5Hash(txtPassword.Text);
+        Session["username"] = txtUsername.Text;
+        Session["email"] = txtEmail.Text;
+        Session["address"] = txtAddress.Text;
+        Session["firstName"] = txtFName.Text;
+        Session["lastName"] = txtLName.Text;
+        Server.Transfer("~/Registration.aspx");
+    }
+
+    protected string getMd5Hash(string input)
+    {
+        MD5 md5Hasher = MD5.Create();
+        byte[] data = md5Hasher.ComputeHash(Encoding.Default.GetBytes(input));
+        StringBuilder sBuilder = new StringBuilder();
+        for (int i = 0; i < data.Length; i++)
+        {
+            sBuilder.Append(data[i].ToString("x2"));
+        }
+        return sBuilder.ToString();
     }
 }

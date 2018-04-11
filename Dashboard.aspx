@@ -47,7 +47,7 @@
     <asp:Label ID="lblPastReservations" runat="server" Text="Past Reservations" CssClass="mrg-top disp-block" Font-Size="X-Large"></asp:Label>
     <hr class="mrg-bt" />
 
-    <asp:GridView ID="GridView2" runat="server" AutoGenerateColumns="False" CellPadding="4" DataSourceID="sdsPastReservations" ForeColor="#333333" GridLines="None" Width="100%">
+    <asp:GridView ID="GridView2" runat="server" AutoGenerateColumns="False" CellPadding="4" DataSourceID="sdsPastReservations" ForeColor="#333333" GridLines="None" Width="100%" ShowHeaderWhenEmpty="True">
         <AlternatingRowStyle BackColor="White" />
         <Columns>
             <asp:BoundField DataField="Name" HeaderText="Field" SortExpression="Name" />
