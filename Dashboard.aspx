@@ -1,7 +1,7 @@
 ﻿<%@ Page Title="Dashboard" Language="C#" MasterPageFile="~/Dashboard.master" AutoEventWireup="true" CodeFile="Dashboard.aspx.cs" Inherits="Default2" %>
 
 <asp:Content ID="DashboardHeader" ContentPlaceHolderID="DashboardHeader" Runat="server">
-    <asp:Label ID="lblUserDashboard" runat="server" Text="'s Dashboard" Font-Bold="True" Font-Size="X-Large" ForeColor="Black"></asp:Label>
+    <asp:Label ID="lblUserDashboard" runat="server" Text="" Font-Bold="True" Font-Size="X-Large" ForeColor="Black"></asp:Label>
 </asp:Content>
 
 <asp:Content ID="DashboardContent" ContentPlaceHolderID="DashboardContent" Runat="Server">

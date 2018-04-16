@@ -8,23 +8,23 @@
     <div class="col-md-8 offset-2">
         <div class="form-group">
             <label for="txtFName" class="mx-auto">First Name</label>
-            <asp:TextBox ID="txtFName" runat="server" Height="44px" Width="100%" CssClass="form-control mx-auto"></asp:TextBox>
+            <asp:TextBox ID="txtFName" runat="server" Height="44px" Width="100%" CssClass="form-control mx-auto" ViewStateMode="Enabled"></asp:TextBox>
         </div>
         <div class="form-group">
             <label for="txtLName" class="mx-auto">Last Name</label>
-            <asp:TextBox ID="txtLName" runat="server" Height="44px" Width="100%" CssClass="form-control mx-auto"></asp:TextBox>
+            <asp:TextBox ID="txtLName" runat="server" Height="44px" Width="100%" CssClass="form-control mx-auto" ViewStateMode="Enabled"></asp:TextBox>
         </div>
         <div class="form-group">
             <label for="txtAddress" class="mx-auto">Address</label>
-            <asp:TextBox ID="txtAddress" runat="server" Height="44px" Width="100%" CssClass="form-control mx-auto"></asp:TextBox>
+            <asp:TextBox ID="txtAddress" runat="server" Height="44px" Width="100%" CssClass="form-control mx-auto" ViewStateMode="Enabled"></asp:TextBox>
         </div>
         <div class="form-group">
             <label for="txtEmail" class="mx-auto">Email Address</label>
-            <asp:TextBox ID="txtEmail" runat="server" Height="44px" Width="100%" CssClass="form-control mx-auto"></asp:TextBox>
+            <asp:TextBox ID="txtEmail" runat="server" Height="44px" Width="100%" CssClass="form-control mx-auto" ViewStateMode="Enabled"></asp:TextBox>
         </div>
         <div class="form-group">
             <label for="txtUsername" class="mx-auto">Username</label>
-            <asp:TextBox ID="txtUsername" runat="server" Height="44px" Width="100%" CssClass="form-control mx-auto"></asp:TextBox>
+            <asp:TextBox ID="txtUsername" runat="server" Height="44px" Width="100%" CssClass="form-control mx-auto" ViewStateMode="Enabled"></asp:TextBox>
         </div>
         <div class="form-group">
             <label for="txtPassword" class="mx-auto">Password</label>
@@ -37,8 +37,8 @@
             <h4>First / Last Name & Address Requirements:</h4>
             <ul>
                 <li>First Name Is required<asp:RequiredFieldValidator ID="rfvFName" runat="server" ControlToValidate="txtFName" ErrorMessage="&lt;- Requirement not fulfilled" ForeColor="#FF0066" SetFocusOnError="True"></asp:RequiredFieldValidator></li>
-                <li>First Name Is required<asp:RequiredFieldValidator ID="rfvLName" runat="server" ControlToValidate="txtLName" ErrorMessage="&lt;- Requirement not fulfilled" ForeColor="#FF0066" SetFocusOnError="True"></asp:RequiredFieldValidator></li>
-                <li>First Name Is required<asp:RequiredFieldValidator ID="rfvAddress" runat="server" ControlToValidate="txtAddress" ErrorMessage="&lt;- Requirement not fulfilled" ForeColor="#FF0066" SetFocusOnError="True"></asp:RequiredFieldValidator></li>
+                <li>Last Name Is required<asp:RequiredFieldValidator ID="rfvLName" runat="server" ControlToValidate="txtLName" ErrorMessage="&lt;- Requirement not fulfilled" ForeColor="#FF0066" SetFocusOnError="True"></asp:RequiredFieldValidator></li>
+                <li>Address Is required<asp:RequiredFieldValidator ID="rfvAddress" runat="server" ControlToValidate="txtAddress" ErrorMessage="&lt;- Requirement not fulfilled" ForeColor="#FF0066" SetFocusOnError="True"></asp:RequiredFieldValidator></li>
             </ul>
             <h4>Email Requirements:</h4>
             <ul>

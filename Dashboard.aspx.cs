@@ -14,7 +14,7 @@ public partial class Default2 : System.Web.UI.Page
 
         if (!IsPostBack)
         {
-            lblUserDashboard.Text = Session["UserName"].ToString() + lblUserDashboard.Text;
+            lblUserDashboard.Text = Session["UserName"].ToString() + "'s Dashboard";
         }
     }
 }

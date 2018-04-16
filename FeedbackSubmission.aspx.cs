@@ -10,7 +10,7 @@ public partial class FeedbackSubmission : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
-        if (Page.PreviousPage != null)
+        if (Page.PreviousPage != null && Page.PreviousPage.Title == "Feedback")
         {
             ContentPlaceHolder c = (ContentPlaceHolder)Page.PreviousPage.Master.FindControl("ContentPlaceHolder1");
             TextBox t = (TextBox)c.FindControl("txtEmail");

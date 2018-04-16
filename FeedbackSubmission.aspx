@@ -1,6 +1,7 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="FeedbackSubmission.aspx.cs" Inherits="FeedbackSubmission" %>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+    <asp:SqlDataSource ID="sqlSubmitFeedback" runat="server" ConnectionString="<%$ ConnectionStrings:HandyDandyLogin %>"></asp:SqlDataSource>
     <div class="container">
         <div class="col-md-6 offset-3">
             <h1 class="text-center mt-5 mb-5">Thanks for the Feedback!</h1>
