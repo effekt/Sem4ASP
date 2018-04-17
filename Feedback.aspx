@@ -16,6 +16,7 @@
 
 			<div class="form-group">
                 <label for="rblRating" class="mx-auto">Rating</label>
+	
 				<asp:RadioButtonList ID="rblRating" runat="server" RepeatDirection="Horizontal" RepeatLayout="Flow" Width="100%" TextAlign="Left">
 					<asp:ListItem>1</asp:ListItem>
 					<asp:ListItem>2</asp:ListItem>

@@ -16,5 +16,21 @@ public partial class Default2 : System.Web.UI.Page
         {
             lblUserDashboard.Text = Session["UserName"].ToString() + "'s Dashboard";
         }
+        
+    }
+
+    protected void sqlGetEquipment_Deleted(object sender, SqlDataSourceStatusEventArgs e)
+    {
+        if (e.Exception != null)
+        {
+            lblDel.Text = e.Exception.Message;
+            e.ExceptionHandled = true;
+        } else if (e.AffectedRows == 0)
+        {
+            lblDel.Text = e.Command.CommandText;
+        } else
+        {
+            lblDel.Text = "It worked!";
+        }
     }
 }

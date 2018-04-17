@@ -18,6 +18,7 @@ body {
     overflow-y: hidden;
     display: inline-block;
     padding: 0;
+    background-color: #91bdc5;
 }
 
 .default-content:first-of-type {
