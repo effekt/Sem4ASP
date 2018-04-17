@@ -12,6 +12,12 @@ public partial class Default2 : System.Web.UI.Page
     {
         if (Session == null || Session["LoggedIn"] == null)
             Server.Transfer("~/Default.aspx");
+
+        if (!IsPostBack)
+        {
+            cldReserveDate.SelectedDate = DateTime.Today;
+        }
+        Page.DataBind();
     }
 
     protected void btnReserve_Click(object sender, EventArgs e)
