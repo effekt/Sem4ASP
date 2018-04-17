@@ -16,7 +16,7 @@ public partial class Default2 : System.Web.UI.Page
         {
             lblUserDashboard.Text = Session["UserName"].ToString() + "'s Dashboard";
         }
-        
+        gridEquipment.DataBind();
     }
 
     protected void sqlGetEquipment_Deleted(object sender, SqlDataSourceStatusEventArgs e)

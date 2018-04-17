@@ -73,6 +73,7 @@
         <SortedAscendingHeaderStyle BackColor="#246B61" />
         <SortedDescendingCellStyle BackColor="#D4DFE1" />
         <SortedDescendingHeaderStyle BackColor="#15524A" />
+        <EmptyDataTemplate>Select a reservation with equipment rentals.</EmptyDataTemplate>  
     </asp:GridView>
 
     <asp:Label ID="lblPastReservations" runat="server" Text="Past Reservations" CssClass="mrg-top disp-block" Font-Size="X-Large"></asp:Label>
